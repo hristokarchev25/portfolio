@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
 import CTA from "./CTA";
+import icoImg from "../../assets/ico.jpg";
 
 const Header = () => {
   return (
@@ -10,6 +11,12 @@ const Header = () => {
         <h1>Hristo Karchev</h1>
         <h5 className="text-light">Junior Fullstack Developer</h5>
         <CTA />
+
+        <div className="me">
+          <img src={icoImg} alt="Hristo IMG" />
+        </div>
+
+        <a href="#contact" className="scroll__down">Scroll Down</a>
       </div>
     </header>
   );

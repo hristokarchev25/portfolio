@@ -9,7 +9,7 @@ import { RiMessage2Fill } from "react-icons/ri";
 const Nav = () => {
   return (
     <nav>
-      <a href="#home">
+      <a href="#home" className="active">
         <ImHome3 />
       </a>
       <a href="#about">

@@ -13,7 +13,7 @@ const Contacts = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdAttachEmail />
+            <MdAttachEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>x_karchev@mail.bg</h5>
             <a href="mailto:x_karchev@mail.bg" target="_blank" rel="noreferrer">
@@ -21,7 +21,7 @@ const Contacts = () => {
             </a>
           </article>
           <article className="contact__option">
-            <FaFacebookSquare />
+            <FaFacebookSquare className="contact__option-icon" />
             <h4>Facebook</h4>
             <h5>Hristo Karchev</h5>
             <a
@@ -33,7 +33,7 @@ const Contacts = () => {
             </a>
           </article>
           <article className="contact__option">
-            <FaViber />
+            <FaViber className="contact__option-icon" />
             <h4>Viber</h4>
             <h5>Hristo Karchev</h5>
             <a href="mailto:x_karchev@mail.bg">Send a message</a>

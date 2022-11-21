@@ -2,6 +2,15 @@ import React from "react";
 import "./testimonials.css";
 import AVATAR from "../../assets/ico.jpg";
 
+// import Swiper core and required modules
+import { Pagination } from "swiper";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
 const Testimonials = () => {
   return (
     <section id="testimonials">

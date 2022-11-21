@@ -1,8 +1,49 @@
 import React from "react";
 import "./contacts.css";
+import { MdAttachEmail } from "react-icons/md";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaViber } from "react-icons/fa";
 
 const Contacts = () => {
-  return <section id="contact">Contacts</section>;
+  return (
+    <section id="contact">
+      <h5>Get In Touch</h5>
+      <h2>Contact Me</h2>
+
+      <div className="container contact__container">
+        <div className="contact__options">
+          <article className="contact__option">
+            <MdAttachEmail />
+            <h4>Email</h4>
+            <h5>x_karchev@mail.bg</h5>
+            <a href="mailto:x_karchev@mail.bg" target="_blank" rel="noreferrer">
+              Send a message
+            </a>
+          </article>
+          <article className="contact__option">
+            <FaFacebookSquare />
+            <h4>Facebook</h4>
+            <h5>Hristo Karchev</h5>
+            <a
+              href="https://www.facebook.com/GoClippers.2019"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Send a message
+            </a>
+          </article>
+          <article className="contact__option">
+            <FaViber />
+            <h4>Viber</h4>
+            <h5>Hristo Karchev</h5>
+            <a href="mailto:x_karchev@mail.bg">Send a message</a>
+          </article>
+        </div>
+
+        <form action=""></form>
+      </div>
+    </section>
+  );
 };
 
 export default Contacts;

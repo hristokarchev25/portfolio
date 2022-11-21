@@ -17,8 +17,14 @@ const Testimonials = () => {
       <h5>Reviews from clients</h5>
       <h2>Testimonials</h2>
 
-      <div className="container testimonials__container">
-        <article className="testimonial">
+      <Swiper
+        className="container testimonials__container"
+        modules={[ Pagination]}
+        spaceBetween={40}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+      >
+        <SwiperSlide className="testimonial">
           <div className="client__avatar">
             <img src={AVATAR} alt="avatar" />
           </div>
@@ -28,41 +34,41 @@ const Testimonials = () => {
             molestiae dolorum ad alias, omnis error, sed quisquam neque, vero ut
             similique quam modi delectus rem architecto quia.
           </small>
-        </article>
-        <article className="testimonial">
+        </SwiperSlide>
+        <SwiperSlide className="testimonial">
           <div className="client__avatar">
             <img src={AVATAR} alt="avatar" />
           </div>
-          <h5 className="client__name">Ernest Achiever</h5>
+          <h5 className="client__name">Ernest Achiever2</h5>
           <small className="client__review">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
             molestiae dolorum ad alias, omnis error, sed quisquam neque, vero ut
             similique quam modi delectus rem architecto quia.
           </small>
-        </article>
-        <article className="testimonial">
+        </SwiperSlide>
+        <SwiperSlide className="testimonial">
           <div className="client__avatar">
             <img src={AVATAR} alt="avatar" />
           </div>
-          <h5 className="client__name">Ernest Achiever</h5>
+          <h5 className="client__name">Ernest Achiever3</h5>
           <small className="client__review">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
             molestiae dolorum ad alias, omnis error, sed quisquam neque, vero ut
             similique quam modi delectus rem architecto quia.
           </small>
-        </article>
-        <article className="testimonial">
+        </SwiperSlide>
+        <SwiperSlide className="testimonial">
           <div className="client__avatar">
             <img src={AVATAR} alt="avatar" />
           </div>
-          <h5 className="client__name">Ernest Achiever</h5>
+          <h5 className="client__name">Ernest Achiever4</h5>
           <small className="client__review">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
             molestiae dolorum ad alias, omnis error, sed quisquam neque, vero ut
             similique quam modi delectus rem architecto quia.
           </small>
-        </article>
-      </div>
+        </SwiperSlide>
+      </Swiper>
     </section>
   );
 };

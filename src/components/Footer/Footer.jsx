@@ -1,7 +1,6 @@
 import React from "react";
 import "./footer.css";
 import { AiFillFacebook } from "react-icons/ai";
-import { AiFillInstagram } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 const Footer = () => {
   return (
@@ -27,7 +26,7 @@ const Footer = () => {
           <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#education">Education</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
@@ -35,13 +34,10 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="http://facebook.com" target="_blank" rel="noreferrer">
+        <a href="https://www.facebook.com/GoClippers.2019" target="_blank" rel="noreferrer">
           <AiFillFacebook />
         </a>
-        <a href="http://instagram.com" target="_blank" rel="noreferrer">
-          <AiFillInstagram />
-        </a>
-        <a href="http://linkedin" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/hristo-karchev-229839199/" target="_blank" rel="noreferrer">
           <BsLinkedin />
         </a>
       </div>

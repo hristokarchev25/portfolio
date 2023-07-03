@@ -33,8 +33,8 @@ const Contacts = () => {
           <article className="contact__option">
             <MdAttachEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>x_karchev@mail.bg</h5>
-            <a href="mailto:x_karchev@mail.bg" target="_blank" rel="noreferrer">
+            <h5>hristokarchev25@gmail.com</h5>
+            <a href="mailto:hristokarchev25@gmail.com" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -53,8 +53,8 @@ const Contacts = () => {
           <article className="contact__option">
             <FaViber className="contact__option-icon" />
             <h4>Viber</h4>
-            <h5>Hristo Karchev</h5>
-            <a href="mailto:x_karchev@mail.bg">Send a message</a>
+            <h5>Hristo Karchev - 0884139916</h5>
+            {/* <a href="mailto:x_karchev@mail.bg">Send a message</a> */}
           </article>
         </div>
 

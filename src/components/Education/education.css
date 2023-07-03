@@ -1,9 +1,9 @@
-.container.testimonials__container {
+.container.educations__container {
     width: 40%;
     padding-bottom: 3rem;
 }
 
-.client__avatar {
+.school__avatar {
     width: 4rem;
     aspect-ratio: 1/1;
     overflow: hidden;
@@ -12,7 +12,7 @@
     border: 0.4rem solid var(--color-primary-variant);
 }
 
-.testimonial {
+.education {
     background: var(--color-bg-variant);
     text-align: center;
     padding: 2rem;
@@ -20,7 +20,7 @@
     user-select: none;
 }
 
-.client__review {
+.school__information {
     color: var(--color-light);
     font-weight: 300;
     display: block;
@@ -33,17 +33,17 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .container.testimonials__container {
+    .container.educations__container {
         width: 60%;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .container.testimonials__container {
+    .container.educations__container {
         width: var(--container-width-sm);
     }
 
-    .client__review {
+    .school__information {
         width: var(--container-width-sm);
     }
 }

@@ -5,13 +5,20 @@ import { ImGithub } from "react-icons/im";
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-      <a href="http://linkedin.com" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.linkedin.com/in/hristo-karchev-229839199/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <SiLinkedin />
       </a>
-      <a href="http://github.com" target="_blank" rel="noreferrer">
+      <a
+        href="https://github.com/hristokarchev25"
+        target="_blank"
+        rel="noreferrer"
+      >
         <ImGithub />
       </a>
-      {/* <a href="http://" target="_blank" rel="noopener noreferrer"></a> */}
     </div>
   );
 };

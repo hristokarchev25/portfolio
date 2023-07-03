@@ -35,7 +35,7 @@ html {
 }
 
 body {
-  font-family: 'Cormorant Garamond', serif;
+  /* font-family: 'Cormorant Garamond', serif; */
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;

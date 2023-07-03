@@ -1,6 +1,9 @@
 import React from "react";
 import "./portfolio.css";
-import IMG from "../../assets/5.jpg";
+import Lotus from "../../assets/1.png";
+import AdminPanel from "../../assets/2.png";
+import Quiz from "../../assets/3.png";
+import Blog from "../../assets/4.png";
 
 const Portfolio = () => {
   return (
@@ -11,12 +14,12 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG} alt="project" />
+            <img src={Lotus} alt="project" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Infinity Lotus</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com"
+              href="https://github.com/hristokarchev25/Project-AA2"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -24,7 +27,7 @@ const Portfolio = () => {
               GitHub
             </a>
             <a
-              href="https://github.com"
+              href="https://lotus-infinity.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -35,12 +38,12 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG} alt="project" />
+            <img src={AdminPanel} alt="project" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>The Learning App - Admin Panel</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com"
+              href="https://github.com/hristokarchev25/Learning"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -48,7 +51,7 @@ const Portfolio = () => {
               GitHub
             </a>
             <a
-              href="https://github.com"
+              href="https://the-learning-app.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -59,12 +62,12 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG} alt="project" />
+            <img src={Quiz} alt="project" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>The Karchev Quiz - Front-End Quiz</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com"
+              href="https://github.com/hristokarchev25/quiz"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -72,7 +75,7 @@ const Portfolio = () => {
               GitHub
             </a>
             <a
-              href="https://github.com"
+              href="https://karchev-quiz.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -83,12 +86,12 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG} alt="project" />
+            <img src={Blog} alt="project" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Wordpress Blog</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com"
+              href="https://github.com/hristokarchev25/Blog"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -96,55 +99,7 @@ const Portfolio = () => {
               GitHub
             </a>
             <a
-              href="https://github.com"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG} alt="project" />
-          </div>
-          <h3>This is portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://github.com"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG} alt="project" />
-          </div>
-          <h3>This is portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://github.com"
+              href="https://dev-karchev.pantheonsite.io/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"

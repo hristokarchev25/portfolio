@@ -38,10 +38,9 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-            saepe assumenda! Aperiam incidunt et, ratione officia explicabo
-            molestiae dolore nam adipisci quam nisi excepturi aliquid,
-            temporibus recusandae, optio numquam fuga.
+            Competitive and dedicated developer. Fast learner, hard worker and
+            team player who is ready to take the challenge. Will not stop until
+            the given problem is solved.
           </p>
 
           <a href="#contact" className="btn btn-primary">

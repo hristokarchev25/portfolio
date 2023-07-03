@@ -2,11 +2,14 @@ import React from "react";
 import "./footer.css";
 import { AiFillFacebook } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
+import { BiCodeAlt } from "react-icons/bi";
 const Footer = () => {
   return (
     <footer>
       <a href="#ico" className="footer__logo">
-        ICo
+        <div className="ico__logo">
+          ico <BiCodeAlt />
+        </div>
       </a>
 
       <ul className="permalinks">
@@ -34,10 +37,18 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.facebook.com/GoClippers.2019" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.facebook.com/GoClippers.2019"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillFacebook />
         </a>
-        <a href="https://www.linkedin.com/in/hristo-karchev-229839199/" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.linkedin.com/in/hristo-karchev-229839199/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsLinkedin />
         </a>
       </div>

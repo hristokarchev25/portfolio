@@ -17,6 +17,11 @@ footer a {
     display: inline-block;
 }
 
+.ico__logo {
+    display: flex;
+    align-items: center;
+}
+
 .permalinks {
     display: flex;
     flex-wrap: wrap;

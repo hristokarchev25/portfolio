@@ -33,7 +33,7 @@ const About = () => {
             <article className="about__card">
               <ImFolderOpen className="about__icon" />
               <h5>Projects</h5>
-              <small># Completed Sprints</small>
+              <small>Completed Sprints on 365 Data Science</small>
             </article>
           </div>
 

@@ -11,137 +11,97 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Languages</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequuntur temporibus error dolores labore explicabo.
-              </p>
+              <p>Bulgarian - Native</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequuntur temporibus error dolores labore explicabo.
-              </p>
-            </li>
-            <li>
-              <BsCheckLg className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequuntur temporibus error dolores labore explicabo.
-              </p>
-            </li>
-            <li>
-              <BsCheckLg className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequuntur temporibus error dolores labore explicabo.
-              </p>
-            </li>
-            <li>
-              <BsCheckLg className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequuntur temporibus error dolores labore explicabo.
-              </p>
+              <p>English - Proficient</p>
             </li>
           </ul>
         </article>
         <article className="service">
           <div className="service__head">
-            <h3>WEB Development</h3>
+            <h3>Soft Skills</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequuntur temporibus error dolores labore explicabo.
-              </p>
+              <p>Communication</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequuntur temporibus error dolores labore explicabo.
-              </p>
+              <p>Self-Learning</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequuntur temporibus error dolores labore explicabo.
-              </p>
+              <p>Creativity</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequuntur temporibus error dolores labore explicabo.
-              </p>
+              <p>Patience</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequuntur temporibus error dolores labore explicabo.
-              </p>
+              <p>Time Management</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequuntur temporibus error dolores labore explicabo.
-              </p>
+              <p>Confidence</p>
+            </li>
+            <li>
+              <BsCheckLg className="service__list-icon" />
+              <p>Accountability</p>
+            </li>
+            <li>
+              <BsCheckLg className="service__list-icon" />
+              <p>Team Player</p>
             </li>
           </ul>
         </article>
         <article className="service">
           <div className="service__head">
-            <h3>Content Creataion</h3>
+            <h3>Tech Skills</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequuntur temporibus error dolores labore explicabo.
-              </p>
+              <p>JavaScript</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequuntur temporibus error dolores labore explicabo.
-              </p>
+              <p>HTML</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequuntur temporibus error dolores labore explicabo.
-              </p>
+              <p>CSS / Sass</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequuntur temporibus error dolores labore explicabo.
-              </p>
+              <p>React / Vue</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequuntur temporibus error dolores labore explicabo.
-              </p>
+              <p>Node.js</p>
+            </li>
+            <li>
+              <BsCheckLg className="service__list-icon" />
+              <p>MongoDB/Mongoose</p>
+            </li>
+            <li>
+              <BsCheckLg className="service__list-icon" />
+              <p>Firebase</p>
+            </li>
+            <li>
+              <BsCheckLg className="service__list-icon" />
+              <p>Express.js</p>
             </li>
           </ul>
         </article>

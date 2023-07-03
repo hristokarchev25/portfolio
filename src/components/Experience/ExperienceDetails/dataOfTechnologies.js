@@ -5,7 +5,7 @@ export const frontendObjOne = {
 
 export const frontendObjTwo = {
     technologyName: "CSS",
-    levelOfExperience: "Intermediate"
+    levelOfExperience: "Experienced"
 };
 
 export const frontendObjThree = {
